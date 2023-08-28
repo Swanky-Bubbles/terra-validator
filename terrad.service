@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=simple
-User=<TERRA_USER>
-ExecStart=<PATH_TO_TERRAD>/terrad start  
+User=lunc
+ExecStart=/home/go/bin/terrad start  
 Restart=on-abort
 
 [Install]
