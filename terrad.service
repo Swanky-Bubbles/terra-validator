@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=lunc
-ExecStart=/home/go/bin/terrad start  
+ExecStart=/home/lunc/go/bin/terrad start  
 Restart=on-abort
 
 [Install]
